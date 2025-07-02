@@ -16,6 +16,7 @@ body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
   font-size: 15px;
+  position: relative;
 }
 
 .containerQr {
@@ -61,4 +62,16 @@ body {
     line-height: 1.5;
 
     color: hsl(216, 15%, 48%);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
