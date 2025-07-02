@@ -31,3 +31,11 @@ body {
   border-radius: 20px;
   box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.05);
 }
+
+.containerQr img {
+  width: 100%;
+  display: block;
+  margin-bottom: 24px;
+
+  border-radius: 10px;
+}
